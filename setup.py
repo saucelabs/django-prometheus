@@ -23,7 +23,7 @@ setup(
     test_suite="django_prometheus.tests",
     long_description=LONG_DESCRIPTION,
     install_requires=[
-        "prometheus_client>=0.0.21,<0.4.0",
+        "prometheus_client==0.7.1",
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
